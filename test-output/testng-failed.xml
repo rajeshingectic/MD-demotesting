@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.mystore.testcases.TC_VariantPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_user_is_navigated_to_Transform_page_for_specific_product"/>
+          <include name="setup"/>
+          <include name="verify_Varient_section_in_specific_product_page"/>
+          <include name="verify_Specific_product_id_in_general_page"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.TC_VariantPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
